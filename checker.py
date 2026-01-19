@@ -36,11 +36,11 @@ password = getpass.getpass("Entrez votre mot de passe : ")
 score, issues = check_password(password)
 
 if score <= 2:
-    level = "FAIBLE ❌"
+    level = "FAIBLE "
 elif score <= 4:
-    level = "MOYEN ⚠️"
+    level = "MOYEN "
 else:
-    level = "FORT ✅"
+    level = "FORT "
 
 print("\nRésultat :", level)
 for issue in issues:
