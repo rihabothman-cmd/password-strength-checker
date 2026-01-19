@@ -1,15 +1,15 @@
 # Password Strength Checker
 
-Projet Python débutant en cybersécurité.
+Python makes its debut in cybersecurity.
 
 ## Description
-Ce programme analyse la robustesse d’un mot de passe selon plusieurs critères :
-- longueur
-- majuscules
-- minuscules
-- chiffres
-- caractères spéciaux
+This program analyzes the strength of a password based on several criteria:
+- length
+- uppercase letters
+- lowercase letters
+- numbers
+- special characters
 
-## Utilisation
+## Usage
 ```bash
-python checker.py
+python.py checker
